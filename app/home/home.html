@@ -1,0 +1,36 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Panel Heading
+    </div>
+
+    <div class="panel-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Title</th>
+                    <th>status</th>
+                    <th>Code user</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in lstTasks">
+                    <td>{{item.cd_task}}</td>
+                    <td>{{item.title_task}}</td>
+                    <td>{{item.status_task}}</td>
+                    <td>{{item.cd_user}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+    <div class="panel-footer">Panel Footer</div>
+</div>
+
+
+
+<style>
+
+</style>
