@@ -12,8 +12,9 @@ angular.module('myApp.home', ['ngRoute'])
 .controller('HomeCtrl', ['$scope', 'API_Endpopoint', function($scope, API_Endpopoint) {
 
     $scope.variableGlobal = API_Endpopoint;
-
     $scope.lstTasks = TASKS;
     console.log(TASKS);
+
+    console.log(USERS);
 
 }]);
